@@ -285,7 +285,6 @@ class BasicAgent(object):
         return reward
 
 
-
 class Game(DoomGame):
     def __init__(self, scenarios_path, play):
         super(Game, self).__init__()
